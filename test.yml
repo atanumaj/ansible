@@ -6,4 +6,4 @@
 
   - name: test
     shell: dig yahoo.com > /home/atanu/dig.txt
-    
+    shell: apt-get -y install bwm-ng 
