@@ -2,7 +2,7 @@
 - name: test
   hosts: all
 
-  task:
+  tasks:
 
   - name: test
     shell: echo "Hi This is a test "
