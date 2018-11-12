@@ -4,7 +4,6 @@
 
   task:
 
-- name: test
-  shell: echo "Hi This is a test "
-  shell: ifconfig
-
+  - name: test
+    shell: echo "Hi This is a test "
+    shell: ifconfig
