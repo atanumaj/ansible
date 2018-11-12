@@ -1,0 +1,10 @@
+---
+- name: test
+  hosts: all
+
+  task:
+
+- name: test
+  shell: echo "Hi This is a test "
+  shell: ifconfig
+
