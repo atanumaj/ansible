@@ -6,4 +6,4 @@
 
   - name: test
     shell: echo "Hi This is a test "
-    shell: ifconfig
+    shell: /sbin/ifconfig
