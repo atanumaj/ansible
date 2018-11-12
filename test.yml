@@ -5,5 +5,5 @@
   tasks:
 
   - name: test
-    shell: echo "Hi This is a test "
+#    shell: echo "Hi This is a test "
     shell: /sbin/ifconfig
