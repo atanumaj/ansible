@@ -5,8 +5,5 @@
   tasks:
 
   - name: test
-    shell: echo "Hi This is a test "
+    shell: hostname
     
-  tasks:
-  -name: test1
-   shell: hostname
