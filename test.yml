@@ -5,5 +5,5 @@
   tasks:
 
   - name: test
-    shell: hostname
+    shell: cat /etc/resolv.conf
     
