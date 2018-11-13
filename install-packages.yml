@@ -1,13 +1,8 @@
 ---
-- name: Install Packages
-  hosts: all
-
+- hosts: all
   tasks:
-
-  - name: Install a list of packages
-  apt:
-    name: "{{ packages }}"
-  vars:
-    packages:
-    - bwm-ng
-    - jdk
+    - name: Ansible apt install latest version example
+      apt:
+        name: zip
+        state: latest
+        update_cache: true
