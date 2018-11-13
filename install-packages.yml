@@ -1,8 +1,13 @@
 ---
 - hosts: all
   tasks:
-    - name: Ansible apt install latest version example
+    - name: Install Latest zip packages
       apt:
         name: zip
         state: latest
         update_cache: true
+    - name:
+	apt:
+	  name: bwm-ng
+	  state: latest
+	  update_cache: true
