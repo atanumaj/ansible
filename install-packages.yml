@@ -1,3 +1,10 @@
+---
+- name: Install Packages
+  hosts: all
+
+  tasks:
+
+
 - name: Install latest version of "openjdk-6-jdk"
   apt:
     name: openjdk-6-jdk
