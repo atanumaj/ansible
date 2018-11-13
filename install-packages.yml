@@ -6,8 +6,8 @@
         name: zip
         state: latest
         update_cache: true
-    - name:
-	apt:
-	  name: bwm-ng
-	  state: latest
-	  update_cache: true
+    - name: Install bwm-ng
+      apt:
+        name: bwm-ng
+        state: latest
+        update_cache: ture
