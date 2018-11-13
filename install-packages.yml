@@ -10,4 +10,3 @@
       apt:
         name: bwm-ng
         state: latest
-        update_cache: ture
