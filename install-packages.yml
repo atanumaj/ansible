@@ -1,0 +1,9 @@
+- name: Install latest version of "openjdk-6-jdk"
+  apt:
+    name: openjdk-6-jdk
+    state: latest
+
+- name: install bwm-ng
+  apt:
+    name: bwm-ng
+    state: latest
